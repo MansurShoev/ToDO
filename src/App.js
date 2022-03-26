@@ -21,7 +21,7 @@ function App() {
     setTodos(copy);
   };
 
-  const remove = () => {
+  const remove = (index) => {
     const copy = [...todos];
     copy.splice(index, 1);
     setTodos(copy);
